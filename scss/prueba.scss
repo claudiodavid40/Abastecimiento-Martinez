@@ -1,0 +1,301 @@
+.fondoUno /* sirve para el fondo del sector cuadrante superior del index*/
+{
+    color:rgb(19, 2, 2);
+    background-color:rgb(240, 215, 200);
+    font-style: italic;
+
+    &__colorcito{
+        color: rgb(218, 18, 18);
+        font-weight: bolder;
+        &--activo{
+            color: rgb(134, 71, 71);
+            font-weight: bolder;
+            &--activo2{
+                text-decoration: line-through;
+            }
+        }
+    }
+   &__normal{
+        background-color:rgb(240, 215, 200);
+        color: rgba(121,12,9,0.9444152661064426);
+        font-size: 64px;
+        font-style: normal;
+   }
+
+}
+
+
+.queVas{ /* sirve para los links*/
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:14px;
+    color: rgb(66, 7, 7);
+    text-decoration:none;
+
+    &__linkChicos{
+        font-size: 12px;
+        color: rgb(66, 7, 7);
+        text-decoration:none;
+         
+    }
+}
+
+.bloqueFooter{  /* sirve para el footer*/
+    
+    padding: 10px;;
+    &__span{
+        font-weight: bolder;
+        font-style: italic;
+        font-kerning: 3px;
+    }
+
+}
+
+.bloTable{  /* sirve para la tabla de la pagina promociones*/
+        position: relative;
+        border-radius:3%;
+        background-color: rgb(247, 184, 173);
+        margin-top:10px;
+        left: 25%;
+        right:20%;
+        width:50%;
+
+    &__configTh{
+        background: linear-gradient(90deg, rgb(27, 1, 1) 0%, rgba(121,12,9,0.9444152661064426) 53%, rgba(82,2,13,1) 93%);
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+    }
+    &__configTd{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 22px;
+        color:rgb(250, 250, 250);
+        font-weight: bolder;
+        text-align: center;
+    }
+    &__img{
+        width: 100%;
+    }
+    &__precios{
+        font-size:30px;
+    }
+}
+
+
+.liRecetas{  /* sirve para la lista de la pagina sugerencias*/
+    font-style: italic;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    &__tituloReceta{
+        font-weight: bolder;
+        text-decoration:underline;
+    }
+    &__detalle{
+        color:brown;
+        font-weight: bolder;  
+}
+}
+.preparacion{  /* sirve para el segundo texto de la pagina sugerencias*/
+    font-style: italic;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    &__titulos{
+        font-weight: bolder;
+        text-decoration:underline;
+    }
+    &__subrayado{
+        text-decoration:underline;
+    }
+}
+
+
+.textoSugerencias{
+    @extend .nuestrosProd;
+   
+}
+
+.bloTableDos{  /* sirve para la tabla de la pagina promociones*/
+    border: 1px;
+    border-radius:3%;
+    background-color: rgb(247, 184, 173);
+
+&__configTd{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: left;
+}
+}
+/*::::::::::: TODO PARA LA PAGINA CONOCENOS / QUE VAS A LLEVAR:::::::::::*/
+
+.bloTableTres{  /* sirve para la tabla de la pagina conocenos*/
+    
+    border-radius:3%;
+    background-color: rgb(247, 184, 173);
+    width:80%;
+    border-radius: 6px;
+   
+
+&__configTd{
+    
+    height: 15px;
+    font-size: 15px;
+    text-align: left;
+    
+    padding: 10px;
+    &--negrito{
+        font-weight: bolder;
+    }
+}
+
+&__configTh{
+    background-color:rgb(243, 136, 136);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+}
+/* solo para el nav de la pagina conocenos*/
+.divNavConocenos{
+    
+        display: flex;
+        min-height: 90px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg, rgb(27, 1, 1) 0%, rgba(150, 46, 42, 0.944) 53%, rgb(150, 40, 54) 93%);
+
+    
+    &__divNav{
+        width:100%;
+        text-align: center;
+        padding:20px;
+        border: 2px;
+    }
+    
+}   
+.navConocenos {
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color:white;
+font-weight: 400;
+letter-spacing: 6px;
+color: rgb(250, 239, 239);
+text-shadow: 1px 1px 2px black;
+
+text-decoration: none;
+
+}
+
+
+
+.nuestrosProd{  /* sirve para el texto de la pagina conocenos */
+    @extend .textosParrafos;
+    text-align: justify;
+        &__negrito{
+            color:rgb(110, 19, 19);
+            font-weight: bolder;
+            &--activoUno{
+            text-decoration:underline;
+            }
+        }
+     margin-left: 60px;
+     margin-right: 60px;
+     margin-bottom: 30px;
+     margin-top:30px;
+     padding:1px;   
+}
+
+.tituloNuestros{
+    font-weight: bolder;
+   
+}
+
+/*::::: referido al boton volver*/
+
+.linkVolver{
+    text-decoration:none;
+    color: floralwhite;
+}
+.divBoton{
+    display: flex;
+    justify-content: center;
+}
+
+.botonVolver{
+    width:100px;
+    background-color: rgb(175, 45, 52);
+    border-radius: 6px;
+}
+
+/*   */
+
+.textosParrafos{
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:16px ;
+text-align:justify;
+letter-spacing: 1px;
+
+}
+
+.textoIndex{
+    @extend .textosParrafos;
+    @extend .fondoUno;
+    font-style: oblique;
+    padding: 10px;
+    margin-top: 2px;
+    padding:30px;
+}
+.textoIndexDos{
+    @extend .textosParrafos;
+    padding: 10px;
+    margin-top: 2px;
+    padding:30px;
+    color:rgb(95, 17, 17);
+}
+
+/*::::::: mixin para el nuevo nav::::*/
+
+@mixin nuevoNav{
+    
+    display: flex;
+    min-height: 90px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(27, 1, 1) 0%, rgba(150, 46, 42, 0.944) 53%, rgb(150, 40, 54) 93%);
+}
+@mixin divNavDos{
+    width:100%;
+    text-align: center;
+    padding:20px;
+    border: 2px;
+}
+
+ 
+@mixin navTexto {
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color:white;
+font-weight: 400;
+letter-spacing: 6px;
+color: rgb(250, 239, 239);
+text-shadow: 1px 1px 2px black;
+text-decoration: none;
+
+}
+
+.divfondoNav{
+@include nuevoNav;
+}
+
+.divfondoNavDos{
+    @include divNavDos;
+    }
+
+.divfondoNavtexto{
+        @include navTexto;
+        }
+
+/*  .....*/
+.divFormu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

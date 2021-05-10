@@ -1,0 +1,290 @@
+.fondoUno, .textoIndex {
+  color: #130202;
+  background-color: #f0d7c8;
+  font-style: italic; }
+  .fondoUno__colorcito {
+    color: #da1212;
+    font-weight: bolder; }
+    .fondoUno__colorcito--activo {
+      color: #864747;
+      font-weight: bolder; }
+      .fondoUno__colorcito--activo--activo2 {
+        text-decoration: line-through; }
+  .fondoUno__normal {
+    background-color: #f0d7c8;
+    color: rgba(121, 12, 9, 0.944415);
+    font-size: 32px;
+    font-style: normal; }
+
+.queVas {
+  /* sirve para los links*/
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
+  color: #420707; }
+  .queVas__linkChicos {
+    font-size: 14px;
+    color: #420707;
+    text-decoration: none; }
+
+.bloqueFooter {
+  /* sirve para el footer*/
+  padding: 10px; }
+  .bloqueFooter__span {
+    font-weight: bolder;
+    font-style: italic;
+    font-kerning: 3px; }
+
+.bloTable {
+  /* sirve para la tabla de la pagina promociones*/
+  position: relative;
+  border-radius: 3%;
+  background-color: #f7b8ad;
+  margin-top: 10px;
+  left: 25%;
+  right: 20%;
+  width: 50%; }
+  .bloTable__configTh {
+    background: linear-gradient(90deg, #1b0101 0%, rgba(121, 12, 9, 0.944415) 53%, #52020d 93%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder; }
+  .bloTable__configTd {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #fafafa;
+    font-weight: bolder;
+    text-align: center; }
+  .bloTable__img {
+    width: 100%; }
+  .bloTable__precios {
+    font-size: 30px; }
+
+.liRecetas {
+  /* sirve para la lista de la pagina sugerencias*/
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  .liRecetas__tituloReceta {
+    font-weight: bolder;
+    text-decoration: underline; }
+  .liRecetas__detalle {
+    color: brown;
+    font-weight: bolder; }
+
+.preparacion {
+  /* sirve para el segundo texto de la pagina sugerencias*/
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  .preparacion__titulos {
+    font-weight: bolder;
+    text-decoration: underline; }
+  .preparacion__subrayado {
+    text-decoration: underline; }
+
+.bloTableDos {
+  /* sirve para la tabla de la pagina promociones*/
+  border: 1px;
+  border-radius: 3%;
+  background-color: #f7b8ad; }
+  .bloTableDos__configTd {
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: left; }
+
+/*::::::::::: TODO PARA LA PAGINA CONOCENOS / QUE VAS A LLEVAR:::::::::::*/
+.bloTableTres {
+  /* sirve para la tabla de la pagina PRODUCTOS*/
+  border-radius: 3%;
+  background-color: #f7b8ad;
+  width: 80%;
+  border-radius: 6px; }
+  .bloTableTres__configTd {
+    height: 15px;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px; }
+    .bloTableTres__configTd--negrito {
+      font-weight: bolder; }
+  .bloTableTres__configTh {
+    background-color: #f38888;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left; }
+
+/* solo para el nav de la pagina conocenos*/
+.divNavConocenos {
+  display: flex;
+  min-height: 90px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #1b0101 0%, rgba(150, 46, 42, 0.944) 53%, #962836 93%); }
+  .divNavConocenos__divNav {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 2px; }
+
+.navConocenos {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 6px;
+  color: #faefef;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none; }
+
+.nuestrosProd, .textoSugerencias {
+  /* sirve para el texto de la pagina productos */
+  text-align: justify;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 1px; }
+  .nuestrosProd__negrito {
+    color: #6e1313;
+    font-weight: bolder; }
+    .nuestrosProd__negrito--activoUno {
+      text-decoration: underline; }
+
+.tituloNuestros {
+  font-weight: bolder; }
+
+/*::::: referido al boton volver*/
+.linkVolver {
+  text-decoration: none;
+  color: floralwhite; }
+
+.divBoton {
+  display: flex;
+  justify-content: center; }
+
+.botonVolver {
+  width: 100px;
+  background-color: #af2d34;
+  border-radius: 6px; }
+
+/*   */
+.textosParrafos, .nuestrosProd, .textoSugerencias, .textoIndex, .textoIndexDos {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 1px; }
+
+.textoIndex {
+  font-style: oblique;
+  padding: 10px;
+  margin-top: 2px;
+  padding: 30px; }
+
+.textoIndexDos {
+  padding: 10px;
+  margin-top: 2px;
+  padding: 30px;
+  color: #5f1111; }
+
+/*::::::: mixin para el nuevo nav::::*/
+.divfondoNav {
+  display: flex;
+  min-height: 90px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #1b0101 0%, rgba(150, 46, 42, 0.944) 53%, #962836 93%); }
+
+.divfondoNavDos {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  
+  border: 2px; }
+
+.divfondoNavtexto {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 6px;
+  color: #faefef;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none; }
+
+/*  .....*/
+.divFormu {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+  @media only screen and (max-width:850px){
+    footer{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background: linear-gradient(90deg, rgb(27, 1, 1) 0%, rgba(150, 46, 42, 0.944) 53%, rgb(150, 40, 54) 93%);
+        grid-area: footer;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:azure;
+        font-size:13px ;
+        padding: 20px;
+        margin: 3px;
+        }
+        .iconFooter{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size:16px;
+            margin: 10px;
+            
+        }
+        #parTres{
+          width: 100%; 
+          text-align:center;
+          font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          margin-left: 10px;
+          margin-right: 10px;
+          background-color:rgb(228, 196, 183) ;
+          margin-bottom: 10px;
+      
+      }
+
+      #formuMedio{
+        
+        left:10%;
+        right:50%;
+        width:500px;
+      
+    }
+    @media only screen and (max-width:530px){
+      .bloTable {
+        /* sirve para la tabla de la pagina promociones*/
+        position: relative;
+        border-radius: 3%;
+        background-color: #f7b8ad;
+        margin-top: 10px;
+        left: 10%;
+        width: 80%; }
+        .bloTable__configTh {
+          background: linear-gradient(90deg, #1b0101 0%, rgba(121, 12, 9, 0.944415) 53%, #52020d 93%);
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-weight: bolder; }
+        .bloTable__configTd {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-size: 20px;
+          color: #fafafa;
+          font-weight: bolder;
+          text-align: center; }
+        .bloTable__img {
+          width: 100%; }
+        .bloTable__precios {
+          font-size: 30px; }
+
+    }
+   
+  }
+  .tiendaLink{
+    color:rgb(77, 9, 9);
+    text-decoration: none;
+}
